@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it" data-art-image-id="{{ART_IMAGE_ID}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="art-board" content="{{ART_BOARD_URL}}">
+  <meta name="art-source" content="{{ART_SOURCE_URL}}">
+  <title>Brief mattutino {{DATE_WORDS}}</title>
+  <style>{{INLINE_FONTS_THEME_AND_PALETTE}}</style>
+</head>
+<body class="{{THEME_NAME}}">
+  <main class="sheet">
+    {{OPTIONAL_CORRENTE_ART_SPINE}}
+    <article class="reading">
+      <div class="topline"><span>Bollettino mattutino</span><span>{{DATE_WORDS}}</span></div>
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="date">{{DATE_WORDS}}</p>
+          <div class="greeting">
+            <div class="greeting-graphic">{{INLINE_ABSTRACT_SVG}}</div>
+            <div class="greeting-text">
+              <h1>Buongiorno,<br><em>{{FIRST_NAME}}.</em></h1>
+              <p class="haiku">{{HAIKU_LINE_1}}<br>{{HAIKU_LINE_2}}<br>{{HAIKU_LINE_3}}</p>
+            </div>
+          </div>
+        </div>
+        {{OPTIONAL_APERTURA_OR_MARGINE_HERO_ART}}
+      </header>
+      <div class="brief-body">
+        <section class="summary">{{NEEDS_ATTENTION}}</section>
+        <section class="summary resolved">{{RESOLVED}}</section>
+        <section class="chapter career">{{CAREER}}</section>
+        {{OPTIONAL_ART_ECHO}}
+        <section class="chapter house">{{HOUSING}}</section>
+        <section class="chapter orbit">{{ORBIT}}</section>
+        <section class="chapter energy">
+          <div class="chapter-title"><p class="kicker">Uso delle risorse</p><h2>Energia</h2></div>
+          <div class="metrics">{{DECORATIVE_METRIC_SVGS}}</div>
+          <p class="energy-note">{{SPOKEN_USAGE_SUMMARY}}</p>
+        </section>
+      </div>
+      <footer class="footer">{{FOOTER}}</footer>
+    </article>
+  </main>
+</body>
+</html>
