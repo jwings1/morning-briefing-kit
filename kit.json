@@ -17,5 +17,9 @@
     "assets/fonts/instrument-serif-1.woff2",
     "assets/fonts/instrument-serif-italic-0.woff2"
   ],
+  "font_licenses": [
+    "assets/fonts/OFL-manrope.txt",
+    "assets/fonts/OFL-instrumentserif.txt"
+  ],
   "themes": ["apertura", "margine", "corrente"]
 }
