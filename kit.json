@@ -1,0 +1,21 @@
+{
+  "name": "morning-briefing-kit",
+  "version": "1.0.0",
+  "design_spec": "DESIGN_SYSTEM.md",
+  "template": "templates/briefing-shell.html",
+  "stylesheet": "themes/morning-brief.css",
+  "scripts": {
+    "select_art": "scripts/select_bulletin_art.py",
+    "extract_palette": "scripts/art_palette.py",
+    "generate_abstract_graphic": "scripts/abstract_graphics.py"
+  },
+  "fallback_board_cache": "assets/board-cache.json",
+  "fonts": [
+    "assets/fonts/manrope-0.woff2",
+    "assets/fonts/manrope-2.woff2",
+    "assets/fonts/manrope-3.woff2",
+    "assets/fonts/instrument-serif-1.woff2",
+    "assets/fonts/instrument-serif-italic-0.woff2"
+  ],
+  "themes": ["apertura", "margine", "corrente"]
+}
