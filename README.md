@@ -9,9 +9,10 @@ The repository contains the responsive theme, the semantic HTML scaffold, bundle
 1. Read [`DESIGN_SYSTEM.md`](DESIGN_SYSTEM.md).
 2. Use [`templates/briefing-shell.html`](templates/briefing-shell.html) for DOM order and class names.
 3. Inline [`themes/morning-brief.css`](themes/morning-brief.css).
-4. Run `python3 scripts/select_bulletin_art.py --output-dir artwork` once per briefing.
-5. Derive colors with `scripts/art_palette.py` and generate the opening SVG with `scripts/abstract_graphics.py`.
-6. Render at 360 × 780 and desktop width before upload.
+4. Fill and inline [`components/energy-strip.html`](components/energy-strip.html).
+5. Run `python3 scripts/select_bulletin_art.py --output-dir artwork` once per briefing.
+6. Derive colors with `scripts/art_palette.py` and generate the opening SVG with `scripts/abstract_graphics.py`.
+7. Render at 360 × 780 and desktop width before upload.
 
 The content prompt owns facts, narration, section inclusion, and delivery. This repository owns visual composition and artwork handling.
 

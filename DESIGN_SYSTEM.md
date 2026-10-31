@@ -54,7 +54,7 @@ The page is editorial rather than card based. Use open space, hairline dividers,
 
 ## Energia
 
-Create four custom inline SVG metrics: angular bolt, veined leaf, contoured droplet, and stacked token bars. Labels and values remain still. Animate only the icon drawings: pulse, sway, float with ripple, and staggered bar growth. Use the palette variables `--icon-energy`, `--icon-leaf`, `--icon-water`, and `--icon-tokens`.
+Start from `components/energy-strip.html`, replace all value and unit placeholders, and inline the result where the shell contains `{{DECORATIVE_METRIC_SVGS}}`. It provides four custom SVG metrics: angular bolt, veined leaf, contoured droplet, and stacked token bars. Labels and values remain still. Animate only the icon drawings: pulse, sway, float with ripple, and staggered bar growth. Use the palette variables `--icon-energy`, `--icon-leaf`, `--icon-water`, and `--icon-tokens`.
 
 The visual metrics have `aria-hidden="true"` and contain no `title` or `desc`. Put the complete spoken values and comparisons in the following paragraph.
 
