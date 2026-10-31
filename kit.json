@@ -4,6 +4,9 @@
   "design_spec": "DESIGN_SYSTEM.md",
   "template": "templates/briefing-shell.html",
   "stylesheet": "themes/morning-brief.css",
+  "components": {
+    "energy_strip": "components/energy-strip.html"
+  },
   "scripts": {
     "select_art": "scripts/select_bulletin_art.py",
     "extract_palette": "scripts/art_palette.py",

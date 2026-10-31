@@ -1,0 +1,43 @@
+<div class="metrics" aria-hidden="true">
+  <svg class="metric" viewBox="0 0 170 82" focusable="false">
+    <g style="color:var(--icon-energy)" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+      <g class="metric-icon icon-energy">
+        <circle class="energy-halo" cx="12" cy="12" r="10.5" stroke-width=".8" opacity=".2"/>
+        <path d="M14 2.5 6.1 13h5.6l-1.5 8.5L18 10.8h-5.2L14 2.5Z" fill="currentColor"/>
+      </g>
+    </g>
+    <text class="metric-label" x="27" y="15">Energia</text>
+    <text class="metric-value" x="0" y="62">{{ENERGY_VALUE}}<tspan> {{ENERGY_UNIT}}</tspan></text>
+  </svg>
+  <svg class="metric" viewBox="0 0 170 82" focusable="false">
+    <g style="color:var(--icon-leaf)" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+      <g class="metric-icon icon-leaf">
+        <path d="M4 17C4 9.2 9.5 4.4 19.5 3.3c-.7 9.3-5.6 14.9-13.7 15.2M5 20c3-4.8 6.4-8.1 11.2-11.1"/>
+      </g>
+    </g>
+    <text class="metric-label" x="27" y="15">Emissioni</text>
+    <text class="metric-value" x="0" y="62">{{CO2_VALUE}}<tspan> {{CO2_UNIT}}</tspan></text>
+  </svg>
+  <svg class="metric" viewBox="0 0 170 82" focusable="false">
+    <g style="color:var(--icon-water)" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+      <g class="metric-icon icon-water">
+        <ellipse class="water-ripple" cx="12" cy="24" rx="6.5" ry="1.6" stroke-width=".8" opacity=".25"/>
+        <path d="M12 2.8C9.2 7 5.7 10.7 5.7 14.6a6.3 6.3 0 0 0 12.6 0C18.3 10.7 14.8 7 12 2.8Z M8.4 15.1c1.1 1.2 2.3 1.6 3.6 1.6"/>
+      </g>
+    </g>
+    <text class="metric-label" x="27" y="15">Acqua</text>
+    <text class="metric-value" x="0" y="62">{{WATER_VALUE}}<tspan> {{WATER_UNIT}}</tspan></text>
+  </svg>
+  <svg class="metric" viewBox="0 0 170 82" focusable="false">
+    <g style="color:var(--icon-tokens)" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">
+      <g class="metric-icon icon-tokens">
+        <path d="M4 20h16"/>
+        <path class="token-bar" d="M5.5 17V11h3.3v6"/>
+        <path class="token-bar middle" d="M11.8 17V7.5h3.3V17"/>
+        <path class="token-bar tall" d="M18.1 17V4.5h2.4V17"/>
+      </g>
+    </g>
+    <text class="metric-label" x="27" y="15">Token</text>
+    <text class="metric-value" x="0" y="62">{{TOKENS_VALUE}}<tspan> {{TOKENS_UNIT}}</tspan></text>
+  </svg>
+</div>
